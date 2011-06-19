@@ -1,0 +1,7 @@
+#style_switcher a{width: 16px; height: 16px; margin: 0.1em; padding: 0 !important; background: transparent url(../images/icons.png) repeat-x fixed top left; display: block; float: right; }
+
+#content { width: 60%; }
+
+#sidebar, #content{ margin: 0.5em; padding: 0.5em; }
+
+#main { margin: 1em auto; }

@@ -1,0 +1,76 @@
+/* Reset Everything */
+* { padding:0; margin:0; font-family: Geneva, Lucida, Arial, Helvetica, sans-serif; }
+body {font-size: 76%;}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:1em 0; }
+li, dd, blockquote, address { margin-left:5%; }
+fieldset { padding: .5em; }
+img { border: 0; }
+
+/* General Class styles */
+.hide { display: none; }
+.important { font-style: italic; font-weight: bold; }
+
+/* Look and feel */
+h1 {font-size: 1.5em; margin: 0; }
+h2 {font-size: 1.3em; margin: 0; }
+h3 {font-size: 1.1em; margin: 0; }
+#header, #main, #footer { float: left; clear: both; width: 100%; overflow: hidden; }
+#header div { padding: 1em 1em 0; }
+#header #logo { float: left; width: 40%; }
+#header #logo a { text-decoration: none; }
+#header #contact { float: right; text-align: right; }
+#logo h1 { display: inline; }
+
+#footer { font-size: .8em; }
+#footer .copyright { text-align: right; float: right; padding: 10px; }
+
+#sidebar { float: left; width: 20%; text-align: right;  margin: 10px; padding: 10px; }
+#sidebar li a {text-decoration: none; font-weight: bold; }
+#sidebar li.current a {text-decoration: underline; color: #EC5388; }
+#menu, #content h2 { margin-top: 0; }
+#menu, #menu li { list-style: none; }
+
+#content { float: left; width: 65%;  margin: 10px; padding: 10px; }
+#content p { text-align: justify;}
+#content a { text-decoration: underline; }
+
+#style_switcher, #font_sizer { margin: 0 0 1em; float: right; clear: both;}
+#style_switcher table, #font_sizer table { border-collapse: collapse; }
+#style_switcher a, #font_sizer a { width: 16px; height: 16px; margin: 0.1em; padding: 0 !important; background: #fff url(../images/icons.png) no-repeat 0 0; display: block;}
+
+#sb_info { float: right; }
+
+#faqs h3 { text-decoration: underline; font-size: 1em; color: #000; font-style: normal; cursor: pointer;}
+#faqs h3:hover, #faqs h3.hover { color: #EC5388; }
+#faqs * { margin: 0.5em 0; width: 80%;}
+
+body #faqs h3.active_faq { font-weight: bold; font-style: italic; font-size: 1.5em; color: #EC5388; }
+
+caption { font-style: italic; font-size: 1em; text-align: right; }
+table#rates { width: 100%; border-collapse: collapse; font-weight: bold; }
+table#rates th { font-size: .9em; letter-spacing: 2px; text-transform: uppercase; text-align: left; padding: 6px 6px 6px 12px; background-color: #ffd5d5; }
+table#rates td { padding: 6px 6px 6px 12px; }
+table#rates tr td, table#rates th{ border: 1px solid #000; }
+table#rates tr.odd td { background-color: #ffd5d5;}
+th.rate { text-align: right; }
+
+body { background: #fff url(../images/pawprints.png) repeat top left; }
+a { color: #000; }
+a:hover { color: #EC5388; }
+#header #logo h2, h3 { color: #EC5388; font-style: italic; font-family: serif; }
+.bp, .odd_text { color: #EC5388; }
+.bp { font-weight: bolder; font-size: 1.3em; }
+#content li { list-style-image: url(../images/paw_bullet.png); }
+
+img#stylist { float: right; width: 40%; margin-left: 10px;}
+
+#font_sizer a#reset_font { background-position: -16px 0; }
+#font_sizer a#bigger { background-position: -32px 0; }
+#font_sizer td.fc { padding-right: 10px; white-space: nowrap; }
+
+#oob {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	border: #EC5388 double 6px;
+}

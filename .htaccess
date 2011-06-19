@@ -1,0 +1,23 @@
+# General Apache options
+AddHandler fcgid-script .fcgi
+AddHandler cgi-script .cgi
+Options +FollowSymLinks +ExecCGI
+
+RewriteEngine On
+
+# enable analog stats pages
+RewriteCond %{REQUEST_URI} ^/stats/(.*)$ [OR]
+RewriteCond %{REQUEST_URI} ^/failed_auth.html$
+RewriteRule ^.*$ - [L]
+
+ErrorDocument 404 index.html
+
+ExpiresActive On
+ExpiresByType image/gif "modification plus 1 day"
+ExpiresByType image/png "modification plus 1 day"
+ExpiresByType image/jpg "modification plus 1 day"
+ExpiresByType image/jpeg "modification plus 1 day"
+ExpiresByType text/css "modification plus 1 day"
+ExpiresByType text/javascript "modification plus 1 day"
+ExpiresByType application/x-javascript "modification plus 1 day"
+
